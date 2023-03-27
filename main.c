@@ -349,6 +349,8 @@ int main()
 //    printf("TAMMATRIZ %d",tamM);
     printf("\nIntercessoes: %d, Palavras colocadas: %d/%d",mm[cont3].score,pColocadas,numP);
     fclose(arq);
+    printf("\nPress ENTER key to Continue\n");
+    getchar();
 }
 int tamStr(char *str){
     int i;
