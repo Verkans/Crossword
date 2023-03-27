@@ -21,10 +21,12 @@ int main()
     printf("\n%s\n",nome);
     arq = fopen(nome,"r");
     if(arq == NULL){
-        printf("NOT TEEZON MAN");
+        printf("NOT FOUND");
+        printf("\nPress ENTER key to Continue\n");
+        getchar();
         exit(0);
     }
-    printf("TEEZON PACAS\n\n");
+    printf("FOUND\n\n");
 
 
     char buffer[TAMLINHA];
